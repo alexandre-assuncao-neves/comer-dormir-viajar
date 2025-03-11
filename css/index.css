@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+body{
+    background-color: white;
+}
+
+.navbar{
+    background-color: white;
+    height: 70px;
+    opacity: 90%;
+}
+
+.nav-link{
+    width: 90px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 400;
+    font-family: "Lato", serif;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.redes-sociais{
+    width: 25px;
+}
+
+.imagem-apresentacao{
+    height: 550px;
+    background-image: url('../img/catalogo/homepage/homepage_praia.png');
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+.imagem-comer{
+    height: 550px;
+    background-image: url('../img/catalogo/comer/comer.jpeg');
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+.texto-apresentacao{
+    color: rgb(255, 255, 255);
+    font-family: "Lato", serif;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    padding-top: 75px;
+}
+
+.card-1,
+.card-2,
+.card-3
+{
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 50px;
+    flex: 1 1 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover{
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.card{
+    padding-top: 75px;
+    border-style: outset;
+    font-family: "Lato", serif;
+    border-radius: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.img-sobre{
+    width: 100%;
+    transform: scale(1.0);
+    transition: transform ease-in-out 1s;
+}
+
+.img-sobre:hover{
+    transform: scale(1.1);
+    transition: transform ease-in-out 1s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.img-dicas{
+    width: 100%;
+    transform: scale(1.0);
+    transition: transform ease-in-out 1s;
+}
+
+.img-dicas:hover{
+    transform: scale(1.1);
+    transition: transform ease-in-out 1s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.zoom-restringido{
+    overflow: hidden;
+}
+
+.btn-primary:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.mapa-localizacao{
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+#nome,
+#mail
+{
+    border-radius: 5px;
+    height: 30px;
+}
+
+#mensagem-texto{
+    border-radius: 15px;
+    height: 150px;
+    width: 500px;
+}
+
+footer {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #333;
+}
+
+footer a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.topo{
+    width: 35px;
+    margin-top: -3oopx;
+    margin-left: 95%;
+}
+
+.botao-topo-mostrar img{
+    opacity: 1;
+}
+
+.botao-topo-escondido img{
+    opacity: 0;
+}
