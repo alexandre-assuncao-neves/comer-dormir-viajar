@@ -68,6 +68,7 @@ body{
     border: 1px solid #ddd;
     text-align: center;
     margin-top: 60px;
+    width: 100%;
 }
 
 .card-1:hover,
@@ -187,3 +188,25 @@ footer a:hover {
 .botao-topo-escondido img{
     opacity: 0;
 }
+
+@media screen and (max-width: 799px) {
+    body {
+      padding: 10px;
+    }
+
+    .navbar{
+        opacity: none;
+    }
+
+    .nav-link{
+        width: 100%;
+        opacity: none;
+    }
+
+    .navbar a{
+        margin: auto;
+        background-color: whitesmoke;
+        width: 100%;
+        opacity: none;
+    }
+  }
